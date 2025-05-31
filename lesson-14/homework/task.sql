@@ -19,8 +19,8 @@ WITH IndexInfo AS (
 SELECT @IndexHTML = 
     N'<style>
         table { border-collapse: collapse; width: 100%; font-family: Arial, sans-serif; }
-        th, td { border: 1px solid #dddddd; text-align: left; padding: 8px; }
-        th { background-color: #f2f2f2; }
+        th, td { border: 1px solidrgb(123, 48, 48); text-align: left; padding: 8px; }
+        th { background-color:rgb(157, 11, 11); }
      </style>
      <h3>Index Metadata Report</h3>
      <table>
